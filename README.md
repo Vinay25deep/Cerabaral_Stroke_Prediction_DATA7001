@@ -8,9 +8,17 @@ Exploratory Data Analysis (EDA) and Class Imbalance :
   - Identified class imbalance (~95% non-stroke cases). Proposed solution - SMOTE
   - Analyzed key features such as age, glucose level, and hypertension
   - Visualizations created using Seaborn and Matplotlib
-### 📌 Future Work
+#### 📌 Future Work
 
 - Train additional machine learning models  
 - Perform hyperparameter tuning  
 - Improve model performance using advanced techniques  
-- Deploy the model as a web application  
+- Deploy the model as a web application
+
+### Benjamin Bateman (48819101)
+### Jayasooriya Giridharan (50075227)
+### Tianxiang Song (50164662)
+### Jinghui Ye (4988431)
+
+
+
