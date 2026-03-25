@@ -5,6 +5,6 @@ An end-to-end machine learning pipeline for stroke prediction using imbalanced h
 ### Vinaydeep Jaiswal (50104716)
 Exploratory Data Analysis (EDA) and Class Imbalance :
   - Performed statistical and visual analysis of dataset
-  - Identified class imbalance (~95% non-stroke cases)
+  - Identified class imbalance (~95% non-stroke cases). Proposed solution - SMOTE
   - Analyzed key features such as age, glucose level, and hypertension
   - Visualizations created using Seaborn and Matplotlib
