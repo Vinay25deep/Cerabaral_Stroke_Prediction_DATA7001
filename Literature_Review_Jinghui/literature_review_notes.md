@@ -1,15 +1,70 @@
 # Literature Review Notes
 
-## Paper 1
-Title:
-Source:
-Year:
-Key point:
-How it supports our project:
+## Purpose
+This file summarises high-quality literature used to support the literature review and clinical validation component of the stroke prediction project.
 
-## Paper 2
-Title:
-Source:
-Year:
-Key point:
-How it supports our project:
+---
+
+## Source 1
+**Title:** 2024 Guideline for the Primary Prevention of Stroke  
+**Type:** Clinical guideline  
+**Why it matters:** This is a strong guideline-level source for identifying established stroke risk factors and prevention priorities.  
+**How it supports our project:** Useful for justifying why age, hypertension, smoking, glucose-related factors, and cardiovascular disease should be treated as important variables.
+
+---
+
+## Source 2
+**Title:** Risk Factors for Stroke  
+**Organisation:** CDC  
+**Type:** Official public health source  
+**Why it matters:** Provides a clear summary of major stroke risk factors including age, high blood pressure, obesity, diabetes, smoking, and physical inactivity.  
+**How it supports our project:** Supports the medical relevance of age, hypertension, BMI, smoking, and glucose-related risk in our dataset.
+
+---
+
+## Source 3
+**Title:** Stroke  
+**Organisation:** WHO  
+**Type:** Official global health fact sheet  
+**Why it matters:** Confirms that much of the stroke burden is attributable to modifiable risk factors such as hypertension, smoking, high fasting blood glucose, excess body weight, and inactivity.  
+**How it supports our project:** Helps justify the clinical importance of hypertension, glucose level, BMI, and smoking status.
+
+---
+
+## Source 4
+**Title:** Probability of Stroke: A Risk Profile from the Framingham Study  
+**Type:** Classic cohort-based risk profile study  
+**Why it matters:** A landmark stroke risk model showing the importance of age, blood pressure, diabetes, smoking, and cardiovascular disease.  
+**How it supports our project:** Useful for explaining why these variables remain central in modern stroke prediction.
+
+---
+
+## Source 5
+**Title:** Global, regional, and national burden of stroke and its risk factors, 1990–2019: A systematic analysis for the Global Burden of Disease Study 2019  
+**Type:** Large-scale global burden study  
+**Why it matters:** Provides population-level evidence that stroke burden is strongly driven by modifiable risk factors.  
+**How it supports our project:** Useful for the introduction and motivation section of the report.
+
+---
+
+## Source 6
+**Title:** Machine learning to predict stroke risk from routine hospital data: a systematic review  
+**Type:** Systematic review  
+**Why it matters:** Reviews machine learning studies for stroke prediction and highlights methodological limitations in real-world modelling.  
+**How it supports our project:** Useful for the methodology discussion and for explaining why model validation is important.
+
+---
+
+## Source 7
+**Title:** Explainable machine learning for stroke risk prediction: a comparative study with SHAP-based interpretation  
+**Type:** Recent machine learning study  
+**Why it matters:** Shows that explainability methods can improve the clinical credibility of stroke prediction models.  
+**How it supports our project:** Useful for later interpretation of feature importance and for linking model outputs to clinically meaningful variables.
+
+---
+
+## Source 8
+**Title:** Machine Learning Approaches for Stroke Risk Prediction: Findings from the Suita Study  
+**Type:** Cohort-based machine learning study  
+**Why it matters:** Applies machine learning to stroke risk prediction using a real population dataset and focuses on identifying influential risk factors.  
+**How it supports our project:** Useful as a bridge between classic clinical risk modelling and modern machine learning approaches.
