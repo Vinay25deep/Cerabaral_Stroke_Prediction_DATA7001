@@ -69,3 +69,17 @@ https://pubmed.ncbi.nlm.nih.gov/39057627/?utm_source=chatgpt.com
 **Why it matters:** Applies machine learning to stroke risk prediction using a real population dataset and focuses on identifying influential risk factors.  
 **How it supports our project:** Useful as a bridge between classic clinical risk modelling and modern machine learning approaches.
 https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1716984/full?utm_source=chatgpt.com
+
+## Source 9
+**Title:** Global and regional effects of potentially modifiable risk factors associated with acute stroke in 32 countries (INTERSTROKE): a case-control study  
+**Type:** Large international clinical study  
+**Why it matters:** This study provides strong evidence that major modifiable risk factors such as hypertension, smoking, diabetes-related factors, and obesity are closely associated with stroke across different populations.  
+**How it supports our project:** It is useful for justifying why variables such as hypertension, smoking status, glucose-related indicators, and BMI should be treated as clinically meaningful features in our dataset.  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/27431356/
+
+## Source 10
+**Title:** Explainable artificial intelligence for stroke prediction through comparison of deep learning and machine learning models  
+**Type:** Explainable AI / machine learning study  
+**Why it matters:** This paper is useful because it combines stroke prediction with explainability methods, which helps connect model performance with feature interpretation.  
+**How it supports our project:** It can support the later stage of our project when we interpret feature importance and explain why certain variables are influential in the final model.  
+**Link:** https://www.nature.com/articles/s41598-024-82931-5
