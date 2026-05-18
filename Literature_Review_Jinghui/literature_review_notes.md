@@ -83,3 +83,48 @@ https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.17169
 **Why it matters:** This paper is useful because it combines stroke prediction with explainability methods, which helps connect model performance with feature interpretation.  
 **How it supports our project:** It can support the later stage of our project when we interpret feature importance and explain why certain variables are influential in the final model.  
 **Link:** https://www.nature.com/articles/s41598-024-82931-5
+
+---
+
+## Source 11
+**Title:** SMOTE: Synthetic Minority Over-sampling Technique  
+**Type:** Foundational methodology paper  
+**Why it matters:** This is the original paper introducing SMOTE, the oversampling method used in our pipeline to address class imbalance. It demonstrates that generating synthetic minority samples improves classifier recall without simply duplicating existing data.  
+**How it supports our project:** Provides the methodological justification for applying SMOTE only to the training set in our pipeline, and explains why recall and F1-score are more appropriate evaluation metrics than accuracy under class imbalance.  
+**Link:** https://arxiv.org/abs/1106.1813
+
+---
+
+## Source 12
+**Title:** A Comparison of Machine Learning Algorithms for Stroke Prediction  
+**Type:** Comparative machine learning study  
+**Why it matters:** Directly compares the performance of multiple classifiers — including logistic regression, random forest, and gradient boosting variants — on stroke prediction tasks, evaluating them under realistic imbalanced conditions.  
+**How it supports our project:** Supports our decision to train and compare a broad range of models rather than selecting a single algorithm, and reinforces the use of ROC-AUC and F1-score as primary comparison metrics.  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/35572819/
+
+---
+
+## Source 13
+**Title:** Socioeconomic Status and Stroke: An Updated Review  
+**Type:** Clinical review  
+**Why it matters:** Examines how socioeconomic and demographic variables such as employment type, marital status, and residence type relate to stroke risk, and clarifies that these factors are largely indirect proxies rather than biological causes.  
+**How it supports our project:** Provides medical justification for treating work_type, ever_married, and Residence_type as background/proxy variables in the feature validation table, and supports cautious interpretation of these features in the final report.  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/25604271/
+
+---
+
+## Source 14
+**Title:** Atrial Fibrillation and Stroke: A Systematic Review of the Evidence  
+**Type:** Systematic review  
+**Why it matters:** Establishes heart disease and atrial fibrillation as a major independent risk factor for stroke, with strong mechanistic evidence.  
+**How it supports our project:** Strengthens the clinical rationale for including heart_disease as a core predictive feature, beyond what the CDC and WHO sources provide.  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/22215849/
+
+---
+
+## Source 15
+**Title:** Hyperglycaemia as a mediator of the poor prognosis of acute stroke: a long-term follow-up study  
+**Type:** Longitudinal clinical study  
+**Why it matters:** Provides specific evidence that elevated blood glucose — not just diabetes diagnosis — is independently associated with worse stroke outcomes, validating the use of avg_glucose_level as a continuous feature rather than a binary diabetes flag.  
+**How it supports our project:** Justifies keeping avg_glucose_level as a continuous variable in our model rather than converting it to a binary diabetes indicator, supporting stronger feature representation.  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/11689398/
